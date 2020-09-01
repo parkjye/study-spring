@@ -1,8 +1,10 @@
 # study-spring
 spring 공부를 위한 저장소입니다.   
    
-Last Update: 20. 9. 2.
+Last Update: 20. 9. 2.   
+
 ---
+
 [0d1aa92] gitignore 추가   
 [51762d6] Spring Project 생성과 기본설정   
 [f6ef3ed] bootstrap 추가   
