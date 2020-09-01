@@ -3,5 +3,11 @@
   PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-
+	<typeAliases>
+		<typeAlias type="com.clone.ticket.dto.UsersDto" alias="usersDto"/>
+	</typeAliases>
+	
+	<mappers>
+		<mapper resource="com/clone/ticket/mybatis/UsersMapper.xml"/>
+	</mappers>
 </configuration> 
