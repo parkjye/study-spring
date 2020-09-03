@@ -5,7 +5,9 @@ create table tk_users(
 	users_num NUMBER PRIMARY KEY,
 	users_id VARCHAR2(50) NOT NULL,
 	users_pwd VARCHAR2(50) NOT NULL,
-	users_phone VARCHAR2(50),
+	users_name VARCHAR2(50) NOT NULL,
+	users_phone VARCHAR2(50) NOT NULL,
+	users_mail	VARCHAR2(50) NOT NULL,
 	users_addr VARCHAR2(250)
 );
 

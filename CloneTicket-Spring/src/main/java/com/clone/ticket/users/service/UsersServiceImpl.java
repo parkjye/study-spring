@@ -1,9 +1,9 @@
-package com.clone.ticket.service;
+package com.clone.ticket.users.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.clone.ticket.dao.UsersDao;
+import com.clone.ticket.users.dao.UsersDao;
 
 @Service
 public class UsersServiceImpl implements UsersService{
