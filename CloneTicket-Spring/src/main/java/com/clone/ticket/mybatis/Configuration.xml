@@ -4,7 +4,7 @@
   "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
 	<typeAliases>
-		<typeAlias type="com.clone.ticket.dto.UsersDto" alias="usersDto"/>
+		<typeAlias type="com.clone.ticket.users.dto.UsersDto" alias="usersDto"/>
 	</typeAliases>
 	
 	<mappers>
