@@ -5,10 +5,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>HOME</title>
+<link rel="stylesheet" href="${pageContext.request.contextPath }/resources/css/bootstrap.css" />
 </head>
 <body>
-<h1>Hello World!</h1>
-<p>안녕하세요.</p>
+<div class="container">
+	<a href="${pageContext.request.contextPath }/users/login-form.do">로그인</a>
+</div>
 </body>
 </html>
