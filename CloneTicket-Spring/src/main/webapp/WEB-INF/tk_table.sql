@@ -7,7 +7,7 @@ create table tk_users(
 	users_pwd VARCHAR2(50) NOT NULL,
 	users_name VARCHAR2(50) NOT NULL,
 	users_phone VARCHAR2(50) NOT NULL,
-	users_mail	VARCHAR2(50) NOT NULL,
+	users_email	VARCHAR2(50) NOT NULL,
 	users_addr VARCHAR2(250)
 );
 

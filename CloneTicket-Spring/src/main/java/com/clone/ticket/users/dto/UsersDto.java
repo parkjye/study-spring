@@ -7,13 +7,13 @@ public class UsersDto {
 	private String users_pwd_check;
 	private String users_name;
 	private String users_phone;
-	private String users_mail;
+	private String users_email;
 	private String users_addr;
 	
 	public UsersDto() {}
 
 	public UsersDto(int users_num, String users_id, String users_pwd, String users_pwd_check, String users_name,
-			String users_phone, String users_mail, String users_addr) {
+			String users_phone, String users_email, String users_addr) {
 		super();
 		this.users_num = users_num;
 		this.users_id = users_id;
@@ -21,7 +21,7 @@ public class UsersDto {
 		this.users_pwd_check = users_pwd_check;
 		this.users_name = users_name;
 		this.users_phone = users_phone;
-		this.users_mail = users_mail;
+		this.users_email = users_email;
 		this.users_addr = users_addr;
 	}
 
@@ -73,12 +73,12 @@ public class UsersDto {
 		this.users_phone = users_phone;
 	}
 
-	public String getUsers_mail() {
-		return users_mail;
+	public String getUsers_email() {
+		return users_email;
 	}
 
-	public void setUsers_mail(String users_mail) {
-		this.users_mail = users_mail;
+	public void setUsers_email(String users_email) {
+		this.users_email = users_email;
 	}
 
 	public String getUsers_addr() {
